@@ -1,20 +1,20 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php
-$baglan = mysql_connect("localhost","root","");
-if(!$baglan){
- die('Bağlantı Hatası:' . mysql_error());
+$connectDB = mysql_connect("localhost","root","");
+if(!$connectDB){
+ die('Connection Error:' . mysql_error());
 }
-$db_select = mysql_select_db("uyeler");
-$isim    =  $_POST['isim'];
-$soyisim = $_POST['soyisim'];
+$db_select = mysql_select_db("membership");
+$name    =  $_POST['name'];
+$surname = $_POST['surname'];
 $email  = $_POST['email'];
 
-$sql = "insert into uyeler1(isim , soyisim , email) values ('".$isim."','".$soyisim."','".$email."')";
+$sql = "insert into membership1(name , surname , email) values ('".$name."','".$surname."','".$email."')";
 if (mysql_query($sql))
-    echo "veriler eklendi";
+    echo "Added data!";
 
-mysql_close($baglan);
+mysql_close($connectDB);
 ?>
 
 
