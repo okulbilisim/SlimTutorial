@@ -1,11 +1,11 @@
 SLİM TUTORİAL
 =======
-Slimle routing ve include yapma
+- [ ] Slimle routing and make including
 
-Böyle bir form oluşturup bu formdan POST ile gönderilenleri alıp ekrana basma
+- [ ] Create form and incoming data receiving from form with POST and print screen
 
-Twitter bootstrap arayüz frameworkü kullanılacak
+- [ ] Use Twitter Bootstrap Framework
 
-composer.json ve Twig kullanılacak
+- [ ] Use Twing and composer.json
 
-Twitter bootstrapı bower ile yükleyip kullanılacak
+- [ ] Twitter Bootsrap load with bower and use
