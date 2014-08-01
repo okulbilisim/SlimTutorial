@@ -1,4 +1,4 @@
-SLİM TUTORİAL
+SLIM TUTORIAL
 =======
 - [ ] Slimle routing and make including
 
