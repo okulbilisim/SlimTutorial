@@ -1,4 +1,4 @@
 .idea
 vendor/
-bower-components
+bower_components
 composer.phar
